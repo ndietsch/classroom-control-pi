@@ -12,3 +12,5 @@ Adding modules to the `Puppetfile` will manage them in the standard `modules`
 directory using r10k.
 
 ### Other Important Things
+
+- Be on your own branch. **Double Check**
