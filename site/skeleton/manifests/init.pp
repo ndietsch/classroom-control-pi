@@ -6,7 +6,7 @@ class skeleton {
     mode   => '0755',
   }
   
-  file { '/etc/shel/.bashrc':
+  file { '/etc/skel/.bashrc':
     ensure => file,
     source => 'puppet:///skeleton/bashrc',
     mode => '0755',
